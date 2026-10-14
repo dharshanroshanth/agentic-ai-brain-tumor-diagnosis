@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Brain Tumor Diagnosis Assistant
 
 An Agentic AI system for brain tumor diagnosis from MRI scans.
@@ -88,3 +89,6 @@ export OPENAI_API_KEY=your_key     # Linux/Colab
 - Confusion matrices per fold
 - Model parameters, FLOPs, inference latency
 - Safety Gate escalation rate
+=======
+# agentic-ai-brain-tumor-diagnosis
+>>>>>>> 984a27499dc9a870f8a9d72d318fa0407ca6d03b
