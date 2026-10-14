@@ -1,0 +1,2 @@
+# Place trained model weights (.pth) here.
+# Checkpoint weights are excluded from git to stay under GitHub's 100MB file limit.

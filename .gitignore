@@ -1,0 +1,42 @@
+# Virtual Environments
+.venv/
+.venv_cuda/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Large Datasets & Archives (Exceeds GitHub 100MB limit)
+dataset.zip
+dataset/
+*.zip
+*.tar.gz
+*.7z
+
+# Model Checkpoints & Weights (best_vit.pth is 343MB; GitHub limits files to 100MB)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.onnx
+checkpoints/*.h5
+!checkpoints/.gitkeep
+
+# Temporary runtime test outputs
+temp_uploaded_mri.jpg
+gradcam_mock_*.jpg
+segmentation_mock_*.jpg
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+New folder/
+
+# Streamlit secrets
+.streamlit/secrets.toml
